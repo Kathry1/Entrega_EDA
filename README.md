@@ -31,14 +31,9 @@ El objetivo de este proyecto es analizar la distribución de recursos por cada 1
   - `pandas` (para el procesamiento de datos)
   - `matplotlib` (para visualizaciones)
   - `seaborn` (para visualizaciones avanzadas)
+---
 
-### **Instalación de las dependencias**
-Puedes instalar las bibliotecas necesarias de Python con el siguiente comando:
-```bash
-pip install pandas matplotlib seaborn
-
-
-##Projektbeschreibung in Deutsch:
+## Projektbeschreibung in Deutsch:
 # Projektname: Ressourcenanalyse
 
 ## Projektbeschreibung
