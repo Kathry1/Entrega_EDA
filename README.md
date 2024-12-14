@@ -1,5 +1,7 @@
 # Entrega_EDA
-EDA_recursos en urgencias e emergencias
+EDA_recursos en urgencias y emergencias
+
+---
 
 # **Nombre del Proyecto: Análisis de Recursos**
 
@@ -9,18 +11,30 @@ El objetivo de este proyecto es analizar la distribución de recursos por cada 1
 ---
 
 ## **Estructura del Proyecto**
-- **`Daten/`**:  
-  Esta carpeta contiene todos los conjuntos de datos relevantes necesarios para el análisis.  
-  - **Importante**: El archivo `Daten.zip` debe descomprimirse después de descargarlo para acceder a los datos.
+La estructura del proyecto está organizada de la siguiente manera:
 
-- **`Bilder/`**:  
-  Almacena todas las visualizaciones creadas durante el análisis (por ejemplo, gráficos, mapas de calor, etc.).
+- **`src/`**: Contiene las subcarpetas principales del proyecto.
+  - **`src/data/`**:  
+    Archivos de datos relevantes utilizados para el análisis.  
+    - **Nota**: Los archivos grandes no se suben directamente. Si es necesario, se incluye un archivo de muestra.
+  - **`src/img/`**:  
+    Visualizaciones generadas durante el análisis, como gráficos y diagramas.
+  - **`src/notebooks/`**:  
+    Jupyter Notebooks utilizados para realizar el EDA (Análisis Exploratorio de Datos) y otros análisis.
+  - **`src/utils/`**:  
+    Contiene funciones auxiliares o módulos de Python utilizados en el desarrollo del proyecto.
 
-- **`Notebooks/`**:  
-  Contiene los Jupyter Notebooks utilizados para el Análisis Exploratorio de Datos (EDA) y el análisis de recursos.
+- **`Memoria/`**:  
+  Carpeta para el informe detallado del proyecto (`Memoria.pdf`).
 
-- **`Dokumentation/`**:  
-  Incluye descripciones detalladas, informes y guías sobre los pasos del proyecto.
+- **`Presentación/`**:  
+  Carpeta para la presentación del proyecto (`Presentación.pdf`).
+
+- **`main.ipynb`**:  
+  El Notebook principal que resume todo el análisis y contiene el flujo final del proyecto.
+
+- **`README.md`**:  
+  Este archivo, que proporciona una descripción general del proyecto.
 
 ---
 
@@ -31,23 +45,10 @@ El objetivo de este proyecto es analizar la distribución de recursos por cada 1
   - `pandas` (para el procesamiento de datos)
   - `matplotlib` (para visualizaciones)
   - `seaborn` (para visualizaciones avanzadas)
+
+
 ---
 
-## Projektbeschreibung in Deutsch:
-# Projektname: Ressourcenanalyse
 
-## Projektbeschreibung
-Dieses Projekt analysiert die Ressourcenverteilung pro 100 km² und pro 1.000 Einwohner in verschiedenen Provinzen.
 
-## Struktur
-- **Daten/**: Enthält alle relevanten Datensätze für das Projekt.
-  Die Datei `Daten.zip` enthält die notwendigen Datensätze für die Analyse. Bitte entpacken Sie die Datei nach dem Herunterladen.
-
-- **Bilder/**: Enthält die Visualisierungen des Projekts.
-- **Notebooks/**: Enthält die Jupyter-Notebooks für die EDA und Analysen.
-- **Dokumentation/**: Enthält die Projektbeschreibung und Anleitungen.
-
-## Anforderungen
-- Python 3.x
-- Bibliotheken: pandas, matplotlib, seaborn
 
